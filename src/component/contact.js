@@ -3,6 +3,7 @@ import Navbar from "./for-all-component/navbar/navbar";
 import Contact from "./contact-component/contact";
 import Footer from "./for-all-component/footer/footer";
 // import Slider from "./contact/slider/slider";
+import Call from "./for-all-component/social-icon/call.js";
 
 export class contact extends Component {
   render() {
@@ -11,6 +12,7 @@ export class contact extends Component {
         <Navbar />
         {/* <Slider /> */}
         <Contact />
+        <Call />
         <Footer />
       </div>
     );

@@ -88,6 +88,11 @@ body {
   min-width: 320px;
 }
 
+.home-contain {
+  background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_520/MTkzOTUzODU0MDkyNjE3MjIx/particlesjs-examples.webp");
+  /* background-size: cover; */
+}
+
 a {
   text-decoration: none;
   color: #888888;
@@ -119,11 +124,9 @@ a {
   color: white;
 }
 
-.flex-container,
-.contain-cont,
-.intro {
+/* .flex-container {
   background-color: white;
-}
+} */
 
 .intro {
   padding-top: 100px;
@@ -133,6 +136,8 @@ a {
 .img0 {
   display: block;
   margin: auto;
+  border: none;
+  margin-bottom: -40px;
 }
 
 .f {
@@ -206,7 +211,7 @@ a {
   justify-content: center;
   /* height: 10px; */
   /* padding: -200px 0; */
-  margin: 30px 0 -20px;
+  margin: 20px 0 -20px;
 }
 
 .box .count0 {
@@ -350,10 +355,11 @@ a {
 
 @media screen and (max-width: 656px) {
   .slide-wrapper {
-    width: 639px;
+    width: 660px;
     animation: slideAnimation 22s linear infinite;
   }
 }
+
 /* ////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////
@@ -663,4 +669,20 @@ a {
 #counter {
   opacity: 1; /* Initially hidden */
   transition: opacity 0.5s ease-in-out;
+}
+
+.img-main-1 {
+  /* position: absolute; */
+  /* top: -2250px; */
+  z-index: -1;
+}
+
+.contain-f {
+  /* background-size: cover; */
+}
+
+.back-img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

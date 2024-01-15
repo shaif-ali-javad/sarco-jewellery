@@ -14,22 +14,29 @@ import Countup from "react-countup";
 
 import Call from "../for-all-component/social-icon/call.js";
 
+// import animation0 from "../lottie-animation/0ierMTuVYO.json";
+// import Lottie from "lottie-react";
+
 const Home = () => {
   const [counterOn, setCounterOn] = useState(false);
 
   return (
-    <>
+    <div className="home-contain">
       <Slider />
       <div className="container-fluid intro" id="about">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 m-auto">
             <h1 className="chain">
-              <img
+              {/* <img
                 data-aos="fade-down"
                 className="img0"
-                src={require("../img/cog-icon.png")}
+                src={require("../lottie-animation/Animation0.gif")}
                 alt=""
-              />
+              /> */}
+              <iframe
+                className="img0"
+                src="https://lottie.host/embed/26491586-42f1-4b77-84b5-8ece21a2b9be/dYnp6lGYnQ.json"
+              ></iframe>
               <p data-aos="fade-left" className="f">
                 A Trusted Gold
               </p>
@@ -49,7 +56,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <section className="flex-container contain-f">
         <div className="container">
           <div className="row">
@@ -131,7 +137,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="sign_up">
         <div className="container">
           <div className="row">
@@ -161,7 +166,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <div className="map">
         <iframe
           title="map"
@@ -173,6 +177,7 @@ const Home = () => {
         ></iframe>
       </div>
 
+      {/* <Lottie animationData={animation0} className="img-main-1" /> */}
       <div className="slideshow-container">
         <div className="slide-wrapper">
           <div className="slide">
@@ -199,7 +204,7 @@ const Home = () => {
         </div>
       </div>
       <Call />
-    </>
+    </div>
   );
 };
 

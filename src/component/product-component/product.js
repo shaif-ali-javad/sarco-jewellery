@@ -11,8 +11,7 @@ export class Product extends Component {
             <div className="row justify-content-center text-center">
               <div className="col-md-8 col-lg-6">
                 <div className="header">
-                  <h3 data-aos="fade-right">Featured Gold</h3>
-                  <h2 data-aos="fade-left">Our Popular Gold</h2>
+                  <h1 data-aos="fade-left">Featured Gold</h1>
                 </div>
               </div>
             </div>
