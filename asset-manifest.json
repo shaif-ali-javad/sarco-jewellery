@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sarco-jewellery/static/css/main.adfd60e2.css",
-    "main.js": "/sarco-jewellery/static/js/main.98a885cf.js",
+    "main.js": "/sarco-jewellery/static/js/main.fb77f48d.js",
     "static/js/787.fd3bfdc2.chunk.js": "/sarco-jewellery/static/js/787.fd3bfdc2.chunk.js",
     "static/media/red-bike.jpeg": "/sarco-jewellery/static/media/red-bike.323550aa5f385d86de44.jpeg",
     "static/media/slider2.jpeg": "/sarco-jewellery/static/media/slider2.8155e761900760d17658.jpeg",
@@ -34,11 +34,11 @@
     "static/media/Novecentowide-Bold.woff": "/sarco-jewellery/static/media/Novecentowide-Bold.a99f8670d27ef505986d.woff",
     "index.html": "/sarco-jewellery/index.html",
     "main.adfd60e2.css.map": "/sarco-jewellery/static/css/main.adfd60e2.css.map",
-    "main.98a885cf.js.map": "/sarco-jewellery/static/js/main.98a885cf.js.map",
+    "main.fb77f48d.js.map": "/sarco-jewellery/static/js/main.fb77f48d.js.map",
     "787.fd3bfdc2.chunk.js.map": "/sarco-jewellery/static/js/787.fd3bfdc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adfd60e2.css",
-    "static/js/main.98a885cf.js"
+    "static/js/main.fb77f48d.js"
   ]
 }
