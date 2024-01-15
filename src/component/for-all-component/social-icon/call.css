@@ -1,0 +1,17 @@
+@keyframes bend {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+.bending-image {
+  width: 80px;
+  animation: bend 0.5s infinite;
+}
