@@ -182,23 +182,27 @@ const Home = () => {
         <div className="slide-wrapper">
           <div className="slide">
             <div className="tex">
-              -WE BUY & SELL Gold coins, TT bars, Kilo bars & Scrap gold-
+              <div className="line0">--</div> WE BUY & SELL - Gold coins, TT
+              bars, Kilo bars & Scrap gold
             </div>
           </div>
           <div className="slide">
             <div className="tex">
-              -WE BUY & SELL Gold coins, TT bars, Kilo bars & Scrap gold-
+              <div className="line0">--</div> WE BUY & SELL - Gold coins, TT
+              bars, Kilo bars & Scrap gold
             </div>
           </div>
           <div className="slide">
             <div className="tex">
-              -WE BUY & SELL Gold coins, TT bars, Kilo bars & Scrap gold-
+              <div className="line0">--</div> WE BUY & SELL - Gold coins, TT
+              bars, Kilo bars & Scrap gold
             </div>
           </div>
           {/* <!-- Clone the first slide to make it infinite --> */}
           <div className="slide">
             <div className="tex">
-              -WE BUY & SELL Gold coins, TT bars, Kilo bars & Scrap gold-
+              <div className="line0">--</div> WE BUY & SELL - Gold coins, TT
+              bars, Kilo bars & Scrap gold
             </div>
           </div>
         </div>

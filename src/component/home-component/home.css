@@ -653,3 +653,12 @@ a {
   top: 0;
   left: 0;
 }
+
+.line0 {
+  margin-right: 10px;
+  letter-spacing: 0px;
+}
+
+.tex {
+  display: flex;
+}
