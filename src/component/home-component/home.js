@@ -37,7 +37,7 @@ const Home = () => {
                 className="img0"
                 src="https://lottie.host/embed/26491586-42f1-4b77-84b5-8ece21a2b9be/dYnp6lGYnQ.json"
               ></iframe>
-              <p data-aos="fade-left" className="f">
+              <p data-aos="fade-right" className="f">
                 A Trusted Gold
               </p>
             </h1>
@@ -68,10 +68,10 @@ const Home = () => {
                       id="icon"
                       className="fa-solid fa-hand-holding-dollar"
                     ></i>
-                    <h2 data-aos="fade-left" className="twitter-post-username">
+                    <h2 data-aos="fade-right" className="twitter-post-username">
                       <p className="p">Price Assurance</p>
                     </h2>
-                    <p data-aos="fade-right" className="twitter-post ppp pppp">
+                    <p data-aos="fade-up" className="twitter-post ppp pppp">
                       We’ll match any competitors offer — our prices can’t be
                       beaten.
                     </p>
@@ -87,7 +87,7 @@ const Home = () => {
                         Risk Free
                       </p>
                     </h2>
-                    <p data-aos="fade-left" className="twitter-post ppp">
+                    <p data-aos="fade-up" className="twitter-post ppp">
                       For any reason, if you’re unhappy with our payment, we’ll
                       return your jewellery at no extra cost.
                     </p>
@@ -98,7 +98,7 @@ const Home = () => {
                       id="icon"
                       className="fa-solid fa-handshake"
                     ></i>
-                    <h2 data-aos="fade-left" className="twitter-post-username">
+                    <h2 data-aos="fade-right" className="twitter-post-username">
                       <p className="p0">
                         <ScrollTrigger
                           onEnter={() => setCounterOn(true)}
@@ -126,7 +126,7 @@ const Home = () => {
                         </ScrollTrigger>
                       </p>
                     </h2>
-                    <p data-aos="fade-right" className="twitter-post ppp">
+                    <p data-aos="fade-up" className="twitter-post ppp">
                       There’s a reason so many customers trust us, keep coming
                       back and refer their contacts.
                     </p>
@@ -141,7 +141,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-md-offset-3 sign-up">
-              <h2 data-aos="zoom-out-down" className="mail-heading">
+              <h2 data-aos="zoom-out-right" className="mail-heading">
                 mail us
               </h2>
               <form
@@ -203,7 +203,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Call />
+      <Call className="call-image" />
     </div>
   );
 };

@@ -11,8 +11,11 @@
   }
 }
 
+.call-contain {
+  z-index: 111;
+}
+
 .bending-image {
-  width: 80px;
-  z-index: 11111111111111111111;
+  width: 70px;
   animation: bend 0.5s infinite;
 }
