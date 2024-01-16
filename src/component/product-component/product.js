@@ -45,11 +45,11 @@ export class Product extends Component {
               </div>
               {/* <!-- Single Product --> */}
               <div className="col-md-6 col-lg-4 col-xl-6">
-                <div id="product-5" className="single-product">
+                <div id="product-4" className="single-product">
                   <div data-aos="zoom-in-up" className="part-1">
                     <ul>
                       <li>
-                        <h3 className="product-title">PAMP Bar</h3>
+                        <h3 className="product-title">Gold Coins</h3>
                       </li>
                     </ul>
                   </div>
@@ -58,11 +58,11 @@ export class Product extends Component {
               </div>
               {/* <!-- Single Product --> */}
               <div className="col-md-6 col-lg-6 col-xl-6">
-                <div id="product-4" className="single-product">
+                <div id="product-5" className="single-product">
                   <div data-aos="zoom-out-down" className="part-1">
                     <ul>
                       <li>
-                        <h3 className="product-title-1">Gold Coins</h3>
+                        <h3 className="product-title-1">PAMP Bar</h3>
                       </li>
                     </ul>
                   </div>
