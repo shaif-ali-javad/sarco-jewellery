@@ -176,6 +176,19 @@ a {
   margin-bottom: 110px;
 }
 
+@media screen and (max-width: 405px) {
+  .box .ppp {
+    text-align: justify;
+    word-spacing: -2px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .box .pppp {
+    word-spacing: -4px;
+  }
+}
+
 @media screen and (max-width: 394px) {
   .box .pppp {
     word-spacing: -4.3px;
